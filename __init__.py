@@ -2,6 +2,12 @@
 ComfyUI-Lun-Qwen3-tts - Qwen3-TTS Text-to-Speech custom node
 """
 
+__author__ = "Lun"
+__version__ = "1.0.0"
+__license__ = "MIT"
+__name__ = "ComfyUI-Lun-Qwen3-tts"
+__description__ = "Qwen3-TTS Text-to-Speech nodes for ComfyUI. Support custom voice, voice design, and voice cloning."
+
 import os
 import sys
 

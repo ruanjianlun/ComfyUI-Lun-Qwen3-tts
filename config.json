@@ -1,0 +1,37 @@
+{
+  "name": "ComfyUI-Lun-Qwen3-tts",
+  "description": "Qwen3-TTS Text-to-Speech nodes for ComfyUI. Support custom voice (9 speakers), voice design (text-to-voice), and voice cloning.",
+  "version": "1.0.0",
+  "author": "Lun",
+  "license": "MIT",
+  "homepage": "https://github.com/lun/ComfyUI-Lun-Qwen3-tts",
+  "repository": "https://github.com/lun/ComfyUI-Lun-Qwen3-tts",
+  "tags": ["audio", "tts", "text-to-speech", "qwen", "qwen3-tts", "voice", "chinese", "english", "japanese", "korean"],
+  "category": "audio",
+  "dependencies": [
+    "qwen-tts>=0.1.0"
+  ],
+  "requirements": "qwen-tts",
+  "nodes": [
+    {
+      "name": "Qwen3TTS_ModelLoader",
+      "display_name": "Qwen3-TTS Model Loader",
+      "description": "Load Qwen3-TTS models (CustomVoice/VoiceDesign/Base)"
+    },
+    {
+      "name": "Qwen3TTS_CustomVoice",
+      "display_name": "Qwen3-TTS Custom Voice",
+      "description": "Generate speech with 9 pre-defined speakers"
+    },
+    {
+      "name": "Qwen3TTS_VoiceDesign",
+      "display_name": "Qwen3-TTS Voice Design",
+      "description": "Create voices from natural language descriptions"
+    },
+    {
+      "name": "Qwen3TTS_VoiceClone",
+      "display_name": "Qwen3-TTS Voice Clone",
+      "description": "Clone voices from reference audio samples (3+ seconds)"
+    }
+  ]
+}
