@@ -1,6 +1,11 @@
 # ComfyUI-Lun-Qwen3-tts
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
 A ComfyUI custom node for **Qwen3-TTS** - Alibaba Cloud's state-of-the-art text-to-speech model.
+
+**Repository**: https://github.com/ruanjianlun/ComfyUI-Lun-Qwen3-tts
 
 ## Features
 
@@ -19,7 +24,7 @@ Search for "Qwen3-TTS" in ComfyUI Manager and install.
 1. Clone this repository to your ComfyUI `custom_nodes` directory:
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/yourusername/ComfyUI-Lun-Qwen3-tts.git
+git clone https://github.com/ruanjianlun/ComfyUI-Lun-Qwen3-tts.git
 ```
 
 2. Install dependencies:
