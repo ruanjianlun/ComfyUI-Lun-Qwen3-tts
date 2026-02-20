@@ -13,9 +13,9 @@ dependencies = [
 readme = "README.md"
 
 [project.urls]
-Repository = "https://github.com/lun/ComfyUI-Lun-Qwen3-tts"
+Repository = "https://github.com/ruanjianlun/ComfyUI-Lun-Qwen3-tts"
 
 [tool.comfy]
-PublisherId = "lun"
+PublisherId = "ruanjianlun"
 DisplayName = "Qwen3-TTS"
-Icon = "https://raw.githubusercontent.com/lun/ComfyUI-Lun-Qwen3-tts/main/comfyui_ui.png"
+Icon = "https://raw.githubusercontent.com/ruanjianlun/ComfyUI-Lun-Qwen3-tts/main/comfyui_ui.png"
