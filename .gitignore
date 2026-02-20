@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Logs
+.playwright-mcp/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
